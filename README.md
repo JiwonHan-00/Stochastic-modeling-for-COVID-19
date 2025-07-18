@@ -73,7 +73,7 @@ Key variables in Parameters.m:
 ```matlab
 input.rhoH = 0.4;           % High-risk self-reporting rate
 input.rhoL = 0.8;           % Low-risk self-reporting rate
-input.t1 = 4; input.t2 = 7; % Contact tracing delay range
+input.t1 = 1; input.t2 = 4; % Contact tracing delay range
 input.SDtime = 11;          % Social distancing start time (day 11)
 ```
 
