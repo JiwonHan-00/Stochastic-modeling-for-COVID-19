@@ -20,7 +20,7 @@ A stochastic modeling study of COVID-19 outbreak in Daegu, Korea using Modified 
 - Q: Quarantined population  
 - R: Recovered population
 
----
+
 
 ## File Structure
 
@@ -33,7 +33,7 @@ A stochastic modeling study of COVID-19 outbreak in Daegu, Korea using Modified 
 ### Data Files
 - Daegu_COVID19_data.xlsx: Real COVID-19 data from Daegu region
 
----
+
 
 ## Key Parameters
 
@@ -77,7 +77,7 @@ input.t1 = 4; input.t2 = 7; % Contact tracing delay range
 input.SDtime = 11;          % Social distancing start time (day 11)
 ```
 
----
+
 
 ## Results and Analysis
 
@@ -93,7 +93,7 @@ input.SDtime = 11;          % Social distancing start time (day 11)
 - 85% increase in unreported cases with 4-7 day contact tracing delays  
 - Contact tracing effectiveness diminishes significantly beyond 4-day delays  
 
----
+
 
 ## Scenario Analysis
 
@@ -112,7 +112,7 @@ input.SDtime = 11;          % Social distancing start time (day 11)
 - Uniform distribution within each interval  
 - 10,000 simulations per scenario  
 
----
+
 
 ## Key Results Summary
 
@@ -135,21 +135,21 @@ This code accompanies the research paper:
 Authors: Jiwon Han, Eunok Jung  
 Department of Mathematics, Konkuk University, Seoul, Republic of Korea
 
----
+
 
 ## Data Source
 
 Epidemiological data sourced from Korea Disease Control and Prevention Agency (KDCA) public press releases covering the period February 18 - March 23, 2020.  
 Data availability: KDCA Press Release Archive
 
----
+
 
 ## Citation
 
 If you use this code in your research, please cite:  
 Han, J., Jung, E. (2024). *Quantitative analysis of self-reporting and contact tracing in heterogeneous risk groups: a stochastic modeling study of the COVID-19 outbreak in Daegu, Korea.* [Journal TBD]
 
----
+
 
 ## Funding
 
@@ -157,13 +157,7 @@ This research is supported by:
 - Korea National Research Foundation (NRF) grant (NRF-2021M3E5E308120711)  
 - Government-wide R&D to Advance Infectious Disease Prevention and Control (HG23C1629)
 
----
 
-## License
-
-MIT License
-
----
 
 ## Contact
 
