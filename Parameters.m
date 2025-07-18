@@ -54,8 +54,8 @@ input.rhoL = 0.1;       % Low-risk self-reporting rate
 
 %% Contact Tracing Parameters
 % Contact tracing delay: Uniform distribution
-input.t1 = 4;           % Minimum delay (days)
-input.t2 = 7;           % Maximum delay (days)
+input.t1 = 1;           % Minimum delay (days)
+input.t2 = 4;           % Maximum delay (days)
 
 % Contact tracing rates (time-dependent)
 % Pre-social distancing
