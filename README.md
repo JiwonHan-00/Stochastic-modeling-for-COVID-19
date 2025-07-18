@@ -48,7 +48,7 @@ A stochastic modeling study of COVID-19 outbreak in Daegu, Korea using Modified 
 
 ### Contact Tracing Parameters
 - Self-reporting rate: High-risk 0.4, Low-risk 0.8  
-- Contact tracing delay: Uniform distribution (4-7 days)  
+- Contact tracing delay: Uniform distribution (1-4 days)  
 - Isolation period: 14 days  
 
 ---
@@ -65,7 +65,7 @@ A stochastic modeling study of COVID-19 outbreak in Daegu, Korea using Modified 
 run('Main_ModiGillespie.m')
 
 % Modify simulation settings in Main_ModiGillespie.m
-num_of_run = 1000;  % Change to desired number of simulations
+num_of_run = 10000;  % Change to desired number of simulations
 ```
 
 ### Parameter Adjustment
