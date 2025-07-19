@@ -1,6 +1,7 @@
 # Stochastic Modeling for COVID-19: Self-Reporting and Contact Tracing Effectiveness in Heterogeneous Risk Groups
 
 This is a stochastic epidemiological model using modified Gillespie algorithm to analyze COVID-19 transmission dynamics. The model examines how self-reporting behaviors and contact tracing delays affect outbreak control in different risk groups during the 2020 Daegu outbreak.
+
 ---
 
 ## Model Overview
