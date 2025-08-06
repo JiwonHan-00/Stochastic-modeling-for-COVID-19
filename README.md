@@ -94,17 +94,17 @@ input.SDtime = 11;          % Social distancing start time (day 11)
 
 ## Scenario Analysis
 
-### Scenario 1: Varying High-risk Group Self-reporting
+### Scenario 1: Scenarios incorporating various self-reporting rates in high-risk group
 - Fix low-risk group at 0.8 self-reporting rate  
 - Vary high-risk group from 0.1 to 1.0  
 - Assess impact on both groups  
 
-### Scenario 2: Varying Low-risk Group Self-reporting
+### Scenario 2: Scenarios incorporating various self-reporting rates in low-risk group
 - Fix high-risk group at 0.4 self-reporting rate  
 - Vary low-risk group from 0.1 to 1.0  
 - Evaluate cross-group transmission effects  
 
-### Contact Tracing Delay Analysis
+### Scenarios incorporating contact tracing delays 
 - Five delay intervals: 1-4, 4-7, 7-10, 10-13, 13-16 days  
 - Uniform distribution within each interval  
 - 10,000 simulations per scenario  
