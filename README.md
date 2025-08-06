@@ -34,8 +34,8 @@ This is a stochastic model using modified Gillespie algorithm to analyze COVID-1
 ## Key Parameters
 
 ### Disease Parameters
-- Latent period: Gamma distribution (mean: 5.48 days, SD: 2.72 days)
-- Infectious period for self-reporting infector: Log-normal distribution (mean: 4.04 days, SD: 27.24 days)  
+- Latent period: Gamma distribution (mean: 5.48 days, SD: 2.72)
+- Infectious period for self-reporting infector: Log-normal distribution (mean: 4.04 days, SD: 27.24)  
 - Infectious period for non-self-reporting infector: Uniform distribution (7.39-17.39 days)  
 
 ### Contact and Transmission Parameters
