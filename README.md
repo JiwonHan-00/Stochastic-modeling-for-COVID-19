@@ -25,21 +25,18 @@ This is a stochastic model using modified Gillespie algorithm to analyze COVID-1
 ## File Structure
 
 ### Main Execution Files
-- Main_ModiGillespie.m: Main simulation execution script  
+- Main_ModiGillespie.m: Main simulation 
 - Parameters.m: Model parameter settings  
-- ModiGillespie_algorithm.m: Core Gillespie algorithm implementation  
+- ModiGillespie_algorithm.m: Gillespie algorithm 
 - ContactTracing_Dice.m: Contact tracing module  
-
-### Data Files
-- Daegu_COVID19_data.xlsx: Real COVID-19 data from Daegu region
-
 
 
 ## Key Parameters
 
 ### Disease Parameters
-- Latent period: Gamma distribution (mean: 5.48 days, SD: 2.72 days)  
-- Infectious period: Uniform distribution (7.39-17.39 days)  
+- Latent period: Gamma distribution (mean: 5.48 days, SD: 2.72 days)
+- Infectious period for self-reporting infector: Log-normal distribution (mean: 4.04 days, SD: 27.24 days)  
+- Infectious period for non-self-reporting infector: Uniform distribution (7.39-17.39 days)  
 - Self-reporting delay: Log-normal distribution  
 
 ### Contact and Transmission Parameters
@@ -117,12 +114,12 @@ input.SDtime = 11;          % Social distancing start time (day 11)
 ## Key Results Summary
 
 ```
-Scenario              High-risk Cases      Low-risk Cases       Unreported Cases
--------------------------------------------------------------------------------------
-Baseline              6,191 (5,774-6,580)  2,733 (2,305-3,188)  2,168 (628-3,693)
-Low reporting (0.1)   +22%                 +46%                 +164%
-High reporting (0.8)  -21%                 -36%                 -86%
-Delayed tracing (4-7d)+15%                 +21%                 +85%
+Scenario               Infected cases for high-risk group         Infected cases for low-risk group              Total unreported Cases
+-------------------------------------------------------------------------------------------------------------------------------------------
+Baseline                  6,191 (5,774-6,580)                           2,733 (2,305-3,188)                         2,168 (628-3,693)
+Low reporting (0.1)        +22%                                           +46%                                       +164%
+High reporting (0.8)       -21%                                           -36%                                       -86%
+Delayed tracing (4-7d)     +15%                                           +21%                                       +85%
 ```
 
 ---
@@ -153,11 +150,11 @@ Han, J., Jung, E. (2024). *Quantitative analysis of self-reporting and contact t
 
 ## Funding
 
-This research is supported by:
-- Korea National Research Foundation (NRF) grant (NRF-2021M3E5E308120711)  
-- Government-wide R&D to Advance Infectious Disease Prevention and Control (HG23C1629)
+- This paper is supported by the Korea National Research Foundation (NRF) grant funded by the Korean government (MEST) (NRF-2021R1A2C100448711).
+- This research was supported by ‘The Government-wide R&D to Advance Infectious Disease Prevention and Control’, Republic of Korea. (grant number : HG23C1629).
+- This paper was supported by Konkuk University in 2025.
 
-
+  
 
 ## Contact
 
