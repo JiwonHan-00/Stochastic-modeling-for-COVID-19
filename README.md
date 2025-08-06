@@ -37,7 +37,6 @@ This is a stochastic model using modified Gillespie algorithm to analyze COVID-1
 - Latent period: Gamma distribution (mean: 5.48 days, SD: 2.72 days)
 - Infectious period for self-reporting infector: Log-normal distribution (mean: 4.04 days, SD: 27.24 days)  
 - Infectious period for non-self-reporting infector: Uniform distribution (7.39-17.39 days)  
-- Self-reporting delay: Log-normal distribution  
 
 ### Contact and Transmission Parameters
 - Contact rates: Differentiated before/after social distancing  
